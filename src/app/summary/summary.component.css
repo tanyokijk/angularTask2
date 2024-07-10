@@ -1,0 +1,18 @@
+.second-block {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+}
+.third-block {
+  display: flex;
+  justify-content: space-around;
+}
+@media (width < 425px) {
+  .second-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
